@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
+    
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand h1 text-white " href="#carouselExampleCaptions">Trendzy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0" style="margin-left: auto;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#startproject">Start Design</a>
+            </li>
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style=" height: 600px; background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(./images/potscollection.jpg);">
+         
+          <div class="carousel-caption ">
+            <h1>Premium Designs</h1>
+            <p>Some representative placeholder content for the first slide.</p>
+            <div class="d-flex justify-content-center">
+              <button>Read More</button>
+              <button>Portfolio</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style=" height: 600px; background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(./images/collect.jpg);" >
+          
+          <div class="carousel-caption ">
+            <h1>Premium Designs</h1>
+            <p>Some representative placeholder content for the second slide.</p>
+            <div class="d-flex justify-content-center">
+              <button>Read More</button>
+              <button>Portfolio</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style=" height: 600px; background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(./images/living-room-2732939_1920.jpg);">
+          <div class="carousel-caption">
+           <h1>Premium Designs</h1>
+            <p>Some representative placeholder content for the third slide.</p>
+            <div class="d-flex justify-content-center">
+              <button>Read More</button>
+              <button>Portfolio</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev d-none d-md-block" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section class="about" data-aos="fade-up" data-aos-delay="300" id="about">
+      <div class="container py-5 about " >
+        <div class="row py-5">
+          <div class="col-lg-5 p-5">
+            <h1 class="display-6">We believe in the <br><b>power of great ideas</b>.</h1>
+            <p class="pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae aperiam commodi repellat similique totam laboriosam voluptatum nesciunt rerum optio pariatur! Possimus sunt inventore cupiditate nihil recusandae sequi voluptatum molestias voluptatem! Porro soluta excepturi magnam consequatur eius inventore sequi sed tenetur!</p>
+            <button>Continue Reading</button>
+          </div>
+          <div class="col-lg-7">
+            <div class="row ">
+              <div class="col-sm-6">
+                <img src="./images/flower-3541205_1280.jpg" class="image-fluid w-100"  height="100%" alt="">
+              </div>
+              <div class="col-sm-6">
+                <img src="./images/tulip-2569334_1280.jpg" class="image-fluid w-100"   height="100%" alt="">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service" >
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+        
+            <img src="./images/aes_lamp.jpg" class="w-100"  height="100%" alt="" data-aos="fade-up" data-aos-delay="300">
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-align-left p-5" data-aos="fade-up" data-aos-delay="300" >
+            <h1>OUR SERVICES</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi necessitatibus eaque natus unde sunt. Quas recusandae odio mollitia pariatur. Illo.</p>
+            <div class="row py-5">
+              <div class="col-sm-6 p-2">
+                 <h4><i class="fa-solid fa-desktop"></i> Graphic Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, odit?</p>
+              </div>
+              <div class="col-sm-6 p-2">
+                <h4><i class="fa-solid fa-pen-ruler"></i> Graphic Design</h4>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, odit?</p>
+             </div>
+             <div class="col-sm-6 p-2">
+              <h4><i class="fa-solid fa-globe"></i> Graphic Design</h4>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, odit?</p>
+           </div>
+           <div class="col-sm-6 p-2">
+            <h4><i class="fa-solid fa-camera"></i> Graphic Design</h4>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, odit?</p>
+         </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio container-fluid py-5" id="portfolio" data-aos="fade-up" data-aos-delay="300">
+      <div class="heading" >
+        <h1 class="py-3">PORTFOLIO</h1>
+      <p class="py-2 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit rerum omnis inventore molestiae facilis repudiandae officia, magnam quas deleniti culpa! Ipsum suscipit hic est maiores nam neque sit laboriosam illo voluptas natus aut asperiores facilis, itaque omnis non eveniet quis.</p>
+      </div>
+      <div class="row pt-3">
+        <div class="col-sm-6">
+         <div class="row" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-6 img1" >
+            <img src="./images/lamp_design.jpg" class="image-fluid w-100 " height="100%"  alt="">
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <img src="./images/s1.1.jpg" class="image-fluid w-100"  alt="">
+            </div>
+            <div>
+              <img src="./images/pottery.jpg" class="image-fluid w-100" alt="">
+            </div>
+         </div>
+
+          </div>
+
+        </div>
+        <div class="col-sm-6">
+          <div class="row" data-aos="fade-down" data-aos-delay="300">
+            <div class="col-lg-6">
+              <img src="./images/lamp1.jpg" class="image-fluid w-100 " height="100%"  alt="">
+            </div>
+            <div class="col-lg-6">
+              <div>
+                <img src="./images/potss.jpg" class="image-fluid w-100" height="100%" alt="">
+              </div>
+              <div>
+                <img src="./images/plantpot.jpg" class="image-fluid w-100" height="100%" alt="">
+              </div>
+           </div>
+  
+            </div>
+        </div>
+              
+      </div>
+      <div class="row py-5 counter" data-aos="fade-up" data-aos-delay="300">
+        <div class="col-sm-6 col-lg-3 py-5">
+          <h1 id="count1">1456</h1>
+          <p>Projects Completed</p>
+        </div>
+        <div class="col-sm-6 col-lg-3 py-5">
+          <h1 id="count2">1456</h1>
+          <p>Projects Completed</p>
+        </div>
+        <div class="col-sm-6 col-lg-3 py-5">
+          <h1 id="count3">1456</h1>
+          <p>Projects Completed</p>
+        </div>
+        <div class="col-sm-6 col-lg-3 py-5">
+          <h1 id="count4">1456</h1>
+          <p>Projects Completed</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="team bg-light " id="team">
+      <div class="container">
+        <div class="heading py-5">
+          <h1 class>CREATIVE PEOPLE</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ut, dolor molestiae, quod consequuntur iste voluptatem obcaecati officiis soluta beatae mollitia cum? Sit quasi officia ipsa similique libero impedit nesciunt?</p>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="./images/team3.jpg" class="image-fluid " alt="" data-aos="fade-up" data-aos-delay="400">
+              <h5 class="pt-3">SARA SMITH</h5>
+              <p>Founder and CEO</p>
+              <div class="icons">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img src="./images/team2.jpg" class="image-fluid " alt="" data-aos="fade-down" data-aos-delay="400">
+                <h5 class="pt-3">SOMER CHRISTIAN</h5>
+                <p>Creative Director</p>
+                <div class="icons">
+                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href=""><i class="fa-solid fa-envelope"></i></a>
+                </div>
+              </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <img src="./images/team1.jpg" class="image-fluid " alt="" data-aos="fade-up" data-aos-delay="400">
+                  <h5 class="pt-3">ANDREW LUPKIN</h5>
+                  <p>Designer Head</p>
+                  <div class="icons">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="client">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6" data-aos="flip-left"data-aos-delay="300" >
+            <div class="clientcard pt-5">
+              <img src="./images/s1.jpg" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellendus molestias magnam mollitia praesentium magni vel asperiores assumenda. Quas, quo!</p>
+              <h5>ALEXANDER HARVARD</h5>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="flip-right"data-aos-delay="300">
+            <h2 class="">WHAT CLIENT SAYS</h2>
+            <P class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae laudantium, unde porro reiciendis dicta voluptatibus dignissimos molestias ab dolorum corporis.</P>
+            <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit molestias fuga nesciunt laborum repellendus laboriosam magni vero, accusamus reprehenderit quia ipsa odio ex nobis culpa?</p>
+            <button>VIEW ALL</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="startproject bg-dark text-white py-5" data-aos="fade-up" data-aos-delay="300" id="startproject">
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>We Love What We Do</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+          </div>
+          <div class="col-lg-6">
+            <button>START PROJECT</button>
+            <button>VIEW PORTFOLIO</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="blog bg-light py-5" id="blog" data-aos="fade-up" data-aos-delay="300">
+      <div class="container">
+        <div class="heading py-5">
+          <h1 class>LATEST BLOGS</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ut, dolor molestiae, quod consequuntur iste voluptatem obcaecati officiis soluta beatae mollitia cum? Sit quasi officia ipsa similique libero impedit nesciunt?</p>
+        </div>
+        <div class="row ">
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="./images/6731128.jpg" class="image-fluid " alt="" data-aos="flip-up" data-aos-delay="400">
+              <button>DESIGN</button>
+              <h6 class="pt-3">A LOT OF CARE, EFFORT & PASSION GOES INTO OUR WORK</h6>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio iste magnam, id hic blanditiis.</p>
+              <div class="icons">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img src="./images/blog2.jpg" class="image-fluid " alt="" data-aos="flip-down" data-aos-delay="400">
+                <button>DESIGN</button>
+                <h6 class="pt-3">A LOT OF CARE, EFFORT & PASSION GOES INTO OUR WORK</h6>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio iste magnam, id hic blanditiis.</p>
+                <div class="icons">
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+              </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <img src="./images/blog3.jpg" class="image-fluid " alt="" data-aos="flip-up" data-aos-delay="400">
+                  <button>DESIGN</button>
+                  <h6 class="pt-3">A LOT OF CARE, EFFORT & PASSION GOES INTO OUR WORK</h6>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio iste magnam, id hic blanditiis.</p>
+                  <div class="icons">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+                </div>
+          
+             
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" data-aos="fade-up" data-aos-delay="300">
+      <div class="container py-5">
+        <div class="row pt-5">
+          <div class="col-lg-6 bg-light">
+            <form action="#" id="contactform">
+              <h3>Ready to get started ?</h3>
+              <input id="name" type="text" placeholder="Name">
+              <span id="nameError"></span>
+              <input type="text" id="email" placeholder="Email Id">
+              <span id="emailError"></span>
+              <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+              <span id="messageError"></span>
+              <button>SEND MESSAGE</button>
+            </form>
+          </div>
+          <div class="col-lg-6 p-3">
+            <h2>Looking For a Excellent Design ?</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla nobis voluptas architecto aperiam tempore a, ad consequatur! Non, ipsam sapiente.</p>
+            <button>GET DIRECTIONS</button>
+            <hr>
+            <h4>Our Headquarters</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur . <br> Voluptatem, necessitatibus.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="">Lorem ipsum dolor sit.</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer py-5 bg-dark text-light" >
+      <div class="container">
+       <a href="#carouselExampleCaptions"> <h1 class="text-center " >Trendzy</h1></a>
+        <hr class="text-white">
+        <div class="row">
+          <div class="col-lg-4 pt-4 text-center" style="color: rgb(180, 178, 176);">
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+          <div class="col-lg-4 text-center pt-4" style="color: rgb(180, 178, 176);">
+            <p>2024 Trendzy Lorem, ipsum dolor.</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="icons">
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href=""><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+       AOS.init();
+      $(document).ready(function(){
+
+        function animatecount(target,count){
+          $("#"+target).animate({count},{
+          duration:count+0,
+          step:function(){
+            $(this).text(Math.round(this.count))
+          }
+
+        })
+        }
+        animatecount("count1",3354)
+        animatecount("count2",2435)
+        animatecount("count3",4374)
+        animatecount("count4",1765)
+
+        $(document).scroll(function(){
+          if (document.body.scrollTop > 500 ||document.documentElement.scrollTop > 600 ){
+            $("nav").css("background","black")
+          }
+          else {
+            $("nav").css("background","transparent")
+          }
+
+          })
+
+         $("#contactform").submit(function(){
+          let data=$("#name").val()
+          if(data.length<5 || data.lenght>=10){
+            $("#nameError").text("Enter Valid Name").css({"color":"red","padding-left":"10px"})
+            return false
+          }else{
+            $("#nameError").text("");
+
+          }
+
+          let emaildata=$("#email").val()
+          if(emaildata.length<5 || emaildata.lenght>=10){
+            $("#emailError").text("Enter Valid Email").css({"color":"red","padding-left":"10px"})
+            return false
+          }else{
+            $("#emailError").text("");
+
+          }
+          let messagedata=$("#message").val()
+          if(emaildata.length<5 || emaildata.lenght>=10){
+            $("#messageError").text("Enter Valid Email").css({"color":"red","padding-left":"10px"})
+            return false
+          }else{
+            $("#messageError").text("");
+
+          }
+          
+
+
+         })
+
+        })
+
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,208 @@
+/***********************FONT FAMILY*************************************/
+
+@font-face{
+    font-family: myfont;
+    src:url("./fonts/Poppins-Bold.ttf")
+}
+
+.nav-link{
+    color: white;
+}
+.active{
+    color:rgb(199, 142, 67) !important;
+}
+.carousel-caption{
+    top: 30%;
+}
+.carousel-caption h1{
+    font-size: 90px ;
+}
+.carousel-caption button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    margin: 5px 10px;
+    text-transform: uppercase;
+}
+.about button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid black;
+    margin: 5px 10px;
+    text-transform: uppercase;
+}
+.service i{
+    color:rgb(199, 142, 67);
+}
+.heading h1{
+    text-align: center;
+}
+.portfolio{
+    text-align: center;
+    overflow: hidden;
+}
+.heading p{
+    width: 50%;
+    margin: auto;
+}
+.portfolio .col-sm-6, .portfolio .col-lg-6{
+    padding: 0;
+}
+.counter p::after{
+    content:" " ;
+    display: block;
+    height: 5px;
+    width: 80px;
+    margin:  5px auto;
+    background-color:rgb(199, 142, 67) ;
+}
+.team 
+{
+    text-align: center;
+}
+.card{
+    border: none;
+    background: none;
+}
+.icons{
+    border-top: 1px solid grey;
+    padding: 20px 0;
+}
+.icons a{
+    margin: 0 10px;
+    color:rgb(199, 142, 67);
+}
+.card button{
+    background-color: rgb(199, 142, 67);
+    color: white;
+    border: none;
+    width: 150px;
+    margin: 20px 0;
+}
+.clientcard{
+    margin: 10%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 10px;
+}
+.clientcard img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.clientcard p{
+    width: 80%;
+    padding-top: 20px;
+    text-align: center;
+}
+.client button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    margin: 5px 10px;
+    text-transform: uppercase;
+    background-color: black;
+}
+.client h2{
+    padding-top: 50px;
+}
+.p1{
+    font-size: 20px;
+}
+.p2{
+    font-size: 12px;
+}
+.startproject button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: transparent;
+    border: solid 1px rgb(199, 142, 67);
+    color: rgb(199, 142, 67);
+    margin: 5px 10px;
+    text-transform: uppercase;
+ 
+}
+.startproject button:hover{
+    background-color: rgb(199, 142, 67);
+    color: black;
+}
+.contact form{
+    padding: 5%;
+}
+.contact input {
+    width: 100%;
+    padding: 20px;
+    height: 40px;
+    margin: 10px 0 ;
+    border: 1px solid rgb(222, 218, 218);
+
+}
+.contact textarea{
+    height: 100px;
+    padding: 20px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid rgb(222, 218, 218);
+}
+.contact button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(199, 142, 67);
+    color: white;
+    margin: 5px 10px;
+    text-transform: uppercase;
+}
+.contact input::placeholder, .contact textarea::placeholder{
+    color: rgba(0, 0, 0, 0.501);
+}
+.contact a{
+    color:  rgb(199, 142, 67);
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer .icons{
+    border: none;
+    text-align: center;
+}
+footer .icons a{
+    color: rgb(180, 178, 176);
+}
+
+
+
+@media (max-width:500px) {
+    .carousel-caption h1{
+        font-size: 50px ;
+    }
+    .carousel-caption button{
+        padding: 5px 10px;
+        
+    }
+    .client button{
+        padding: 5px 10px;
+    }
+}
+
+@media (width<=768px) {
+    .heading p{
+        width: 90%;
+        margin: auto;
+    }
+    .img1{
+        height: 651px;
+    }
+    .startproject .col-lg-6{
+        text-align: center;
+    }
+    
+}
